@@ -1,0 +1,105 @@
+body {
+    font-family:CAIRO;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p, li{
+    font-family: 'Cairo', sans-serif;
+    /* Adjust other styles as needed */
+}
+
+.section {
+    padding: 0px;
+    text-align: center;
+    margin: 3px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#section1 {
+    background-image: url('transporting-furniture.jpg'); /* قم بتغيير هذا إلى صورة الخلفية الخاصة بك */
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+#section1 .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 8px;
+}
+
+#section2 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 .text {
+    flex: 1;
+    padding: 20px;
+}
+
+#section2 .image {
+    flex: 1;
+    padding: 20px;
+}
+
+#section2 .image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#section3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+#section3 li {
+    background: #ff2323;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: cairo;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: cairo;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5b;
+}
+
+#whatsapp-float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+#whatsapp-float-button:hover {
+    background-color: #1ebe5b;
+}
